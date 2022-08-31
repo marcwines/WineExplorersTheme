@@ -11,7 +11,7 @@
   border-left: #d3d3d3 2px solid;
 }
 .mycart__items {
- max-width: 600px; 
+ width: 500px; 
 }
 .flyout-quantity {
     display: flex;
