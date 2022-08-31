@@ -71,3 +71,8 @@ form[action]="cart/add".js-ajax-cart-form-in-progress [type="submit"] {
   line-height: 0px;
 }
 
+.trustpilot-cart-widget {
+  margin-top: 1em;
+  background: #f2f2f2;
+  padding: 0.5em;
+}
