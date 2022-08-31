@@ -33,10 +33,9 @@ hr {
 .flyout-quantity > .quantity {
     height: 24px!important;
     min-height: 24px!important;
-    width: 120px!important; 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .flyout-quantity >.quantity > button {
