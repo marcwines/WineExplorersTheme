@@ -17,6 +17,7 @@ hr {
 
 .flyout-cart-container {
   display: none;
+  transition: all 0.3s;
 }
 
 body.js-my-cart-open .flyout-cart-container {
