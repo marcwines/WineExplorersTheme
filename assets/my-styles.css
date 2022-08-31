@@ -2,9 +2,8 @@
   display: flex;
 }
 .mycontainer__content {
-  flex: 1 1 auto;
+  flex: 1 0 auto;
 }
-
 .mycontainer__cart {
   flex: 0 0 300px;
   padding: 1em;
