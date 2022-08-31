@@ -19,10 +19,11 @@ hr {
   display: none;
 }
 
-.flyout-cart-container {
+body.js-my-cart-open .flyout-cart-container {
   flex: 0 0 200px;
   padding: 1em;
   border-left: #d3d3d3 2px solid;
+  display: block;
 }
 
 .mycart__items {
