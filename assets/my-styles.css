@@ -18,10 +18,12 @@ hr {
 .flyout-cart-container {
   display: none;
   transition: all 0.3s;
+  width: 0px;
 }
 
 body.js-my-cart-open .flyout-cart-container {
   flex: 0 0 200px;
+  width: 500px;
   padding: 1em;
   border-left: #d3d3d3 2px solid;
   display: block;
