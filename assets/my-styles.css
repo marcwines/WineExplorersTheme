@@ -48,3 +48,11 @@
 .flyout-loop__item hr{
   margin: 3em 0em;
 }
+
+body.js-ajax-cart-request-in-progress .mycart__items {
+  opacity: 0.5;
+}
+
+form[action]="cart/add".js-ajax-cart-form-in-progress [type="submit"] {
+  opacity: 0.5;
+}
