@@ -17,9 +17,8 @@
 .flyout-quantity {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
-    
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .flyout-quantity > .quantity {
