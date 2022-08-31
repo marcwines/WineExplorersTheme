@@ -2952,3 +2952,12 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+.flyout-loop__item hr{
+  margin: 1em 0em!important;
+}
+
+@media screen and (min-width: 750px)
+.flyout-loop__item hr {
+    margin: 1em 0!important;
+}
