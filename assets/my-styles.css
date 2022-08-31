@@ -2,10 +2,10 @@
   display: flex;
 }
 .mycontainer__content {
-  flex: 1 0 auto;
+  flex: 2 1 auto;
 }
 .mycontainer__cart {
-  flex: 0 0 20px;
+  flex: 0 0 220px;
   padding: 1em;
   
 }
