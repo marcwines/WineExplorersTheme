@@ -4,7 +4,7 @@
 .mycontainer__content {
   flex: 2 1 auto;
 }
-.mycontainer__cart {
+.flyout-cart-container {
   flex: 0 0 220px;
   padding: 1em;
   
