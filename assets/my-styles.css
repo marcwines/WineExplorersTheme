@@ -9,6 +9,6 @@
   padding: 1em;
 }
 
-.flyout-quantity > button.quantity:hover {
+.flyout-quantity >.quantity > button:hover {
   background: red;
 }
