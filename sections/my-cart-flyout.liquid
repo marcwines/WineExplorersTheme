@@ -26,7 +26,7 @@
           <a data-ajax-cart-request-button href="/cart/change?line={{ forloop.index }}&quantity=0" rel="{{ item.id }}">Remove Item</a>
         </div> 
         {% endfor %}
-        <div class="flyout-total">Total: {{ item.final_line_price | money }}</div>
+        <div class="flyout-total">Total: {{cart.total_price | money_with_currency }}</div>
     </div>
   </div>
 </div>
