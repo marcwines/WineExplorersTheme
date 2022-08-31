@@ -12,6 +12,8 @@
 
 .flyout-quantity {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .flyout-quantity__selector {
