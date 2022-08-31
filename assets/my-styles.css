@@ -20,6 +20,10 @@
     justify-content: space-around;
 }
 
+.flyout-quantity > .quantity {
+  height: 1.5em!important;
+}
+
 .flyout-quantity >.quantity > button:hover {
   background: #f2f2f2;
 }
@@ -37,6 +41,3 @@
  line-height: 1.2em; 
 }
 
-.flyout-cart-container > .quantity {
-  min-height: 1.5em!important;
-}
