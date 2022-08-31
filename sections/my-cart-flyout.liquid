@@ -11,8 +11,11 @@
 <h2>Cart</h2>
 <div class="my-cart">
 
-
-  {% if cart.item_count > 0 %} your html here 
+<!-- Empty Cart -->
+    {% if cart.item_count < 1 %} 
+        <h3>Your shopping cart is empty.</h3>
+    {% endif %}
+    {% if cart.item_count > 0 %} 
     <div class="cart-wrap" data-ajax-cart-section data-ajax-cart-section-scroll>
         <div class="mycart__items">
             {% for item in cart.items %}
@@ -70,6 +73,7 @@
             </div>
         </div>
         {% endfor %}
+        {% endif %}
         <hr>
         <div class="flyout-total"><b>Total:</b> {{cart.total_price | money_with_currency }} per month.</div>
         Wine Explorers subscriptions are charged on the 12th of every month, and ship on the 16th.
@@ -84,7 +88,6 @@
                   </button>
                 </a>
     </div>
-                          {% endif %}
 </div>
 
 
