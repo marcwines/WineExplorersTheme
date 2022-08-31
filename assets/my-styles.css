@@ -13,6 +13,7 @@ hr {
 }
 .mycontainer__content {
   flex: 2 1 auto;
+  width: 100%;
 }
 
 .flyout-cart-container {
