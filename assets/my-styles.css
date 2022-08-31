@@ -19,7 +19,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 10%;
+    
 }
 
 .flyout-quantity > .quantity {
@@ -35,6 +35,7 @@
 .flyout-loop__item {
   display: flex;
   font-size: 14px;
+  gap: 24px;
 }
 
 .flyout-loop__item a {
