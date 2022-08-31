@@ -64,3 +64,8 @@ form[action]="cart/add".js-ajax-cart-form-in-progress [type="submit"] {
 .flyout-minus {
   line-height: 0px;
 }
+
+@media screen and (min-width: 750px)
+hr {
+    margin: 2em 0;
+}
