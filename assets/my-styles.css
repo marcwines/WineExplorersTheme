@@ -10,6 +10,7 @@
   background: #f2f2f2;
   border-left: #d3d3d3 2px solid;
 }
+
 .mycart__items {
  width: 500px; 
 }
@@ -18,6 +19,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    gap: 10%;
 }
 
 .flyout-quantity > .quantity {
