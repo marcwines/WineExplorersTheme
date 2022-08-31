@@ -8,9 +8,6 @@
   flex: 0 0 300px;
   padding: 1em;
 }
-.flyout-quantity {
-  max-width: 300px;
-}
 
 .flyout-quantity__selector {
   border: 1px solid black;
