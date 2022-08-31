@@ -9,26 +9,3 @@
   padding: 1em;
 }
 
-
-.flyout-quantity {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.flyout-quantity__selector {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  padding: 0.5em 2em;
-}
-
-.flyout-quantity__selector a {
-  font-weight: 900;
-  text-decoration: none;
-  color: var(--color-base-outline-button-labels);
-  width: 36px;
-  text-align: center;
-}
