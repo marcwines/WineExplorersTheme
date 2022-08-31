@@ -10,10 +10,11 @@ hr {
 
 .my-container {
   display: flex;
+  width: 100%!important;
 }
 .mycontainer__content {
   flex: 2 1 auto;
-  width: 100%;
+  width: 100%!important;
 }
 
 .flyout-cart-container {
