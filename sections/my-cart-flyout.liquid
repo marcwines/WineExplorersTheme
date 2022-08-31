@@ -12,6 +12,7 @@
 <div class="my-cart">
     <div class="mycart__items">
         {% for item in cart.items %}
+        <hr>
         <div class="flyout-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
         <div class="flyout-price">Price: {{ item.final_price | money }}</div>
         <div class="flyout-quantity"> 
