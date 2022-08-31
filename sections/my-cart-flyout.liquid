@@ -22,6 +22,9 @@
             {{ item.quantity }}
             <a data-ajax-cart-request-button href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-minus">+</a>
         </div>
+        <div>
+          <a data-ajax-cart-request-button href="/cart/change?line={{ forloop.index }}&quantity=0" rel="{{ item.id }}">Remove Item</a>
+        </div> 
         {% endfor %}
         <div class="flyout-total">Total: {{ item.final_line_price | money }}</div>
     </div>
