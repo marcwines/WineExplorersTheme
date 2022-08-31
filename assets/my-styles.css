@@ -5,7 +5,7 @@
   flex: 2 1 auto;
 }
 .flyout-cart-container {
-  flex: 0 0 600px;
+  flex: 0 0 200px;
   padding: 1em;
   background: #f2f2f2;
   border-left: #d3d3d3 2px solid;
