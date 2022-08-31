@@ -53,6 +53,11 @@
   margin: 1em 0em;
 }
 
+@media screen and (min-width: 750px)
+.flyout-loop__item hr {
+    margin: 1em 0!important;
+}
+
 body.js-ajax-cart-request-in-progress .mycart__items {
   opacity: 0.5;
 }
@@ -65,7 +70,3 @@ form[action]="cart/add".js-ajax-cart-form-in-progress [type="submit"] {
   line-height: 0px;
 }
 
-@media screen and (min-width: 750px)
-hr {
-    margin: 2em 0!important;
-}
