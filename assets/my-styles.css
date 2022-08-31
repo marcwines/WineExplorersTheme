@@ -50,7 +50,7 @@
   font-weight: 600;
 }
 .flyout-loop__item hr{
-  margin: 3em 0em;
+  margin: 1em 0em;
 }
 
 body.js-ajax-cart-request-in-progress .mycart__items {
