@@ -8,7 +8,7 @@
 
 
 <!-- Markup -->
-    <h2>Cart</h2>
+<h2>Cart</h2>
 <div class="my-cart" data-ajax-cart-section>
     <div class="mycart__items">
         {% for item in cart.items %}
@@ -17,9 +17,9 @@
         <div class="flyout-price">Price: {{ item.final_price | money }}</div>
         <div class="flyout-quantity"> 
             Quantity: 
-        <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | minus: 1 }} " class="flyout-minus">Minus</a>
+        <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | minus: 1 }} " class="flyout-minus">+</a>
         {{ item.quantity }}
-        <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-minus">Plus</a>
+        <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-minus">-</a>
     
     </div>
     <div class="flyout-total">Total: {{ item.final_line_price | money }}</div>
