@@ -8,3 +8,7 @@
   flex: 0 0 300px;
   padding: 1em;
 }
+.flyout-quantity {
+  background-color: #f2f2f2;
+  padding: 0.5em;
+}
