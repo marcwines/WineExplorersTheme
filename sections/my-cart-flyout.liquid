@@ -33,9 +33,7 @@
                                     </svg>
                                 </a>
                             </button>
-                            <input class="quantity__input" type="number" value="{{ item.quantity }}" min="0"
-                                aria-label="Quantity for Commander Monthly Wine Subscription" id="Quantity-1"
-                                data-index="1">
+                            <input class="quantity__input" type="number" value="{{ item.quantity }}" min="0" id="Quantity-1">
                             <button data-ajax-cart-request-button class="quantity__button no-js-hidden" name="plus" type="button">
                                 <a data-ajax-cart-request-button href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-plus">
                                     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
