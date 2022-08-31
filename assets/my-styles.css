@@ -59,5 +59,8 @@ body.js-ajax-cart-request-in-progress .mycart__items {
 
 form[action]="cart/add".js-ajax-cart-form-in-progress [type="submit"] {
   opacity: 0.5;
-  content: "LOADING"!important;
+}
+
+.flyout-minus {
+  line-height: 0px;
 }
