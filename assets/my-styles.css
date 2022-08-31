@@ -9,6 +9,11 @@
   padding: 1em;
 }
 
+
+.flyout-quantity {
+  display: flex;
+}
+
 .flyout-quantity__selector {
   border: 1px solid black;
   max-width: 150px;
