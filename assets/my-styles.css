@@ -36,3 +36,7 @@
 .flyout-title {
  line-height: 1.2em; 
 }
+
+.flyout-cart-container > .quantity {
+  min-height: 1.5em;
+}
