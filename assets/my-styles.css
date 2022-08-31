@@ -23,6 +23,7 @@
 .flyout-quantity > .quantity {
     height: 20px!important;
     min-height: 20px!important;
+    width: 120px'!important;
 }
 
 .flyout-quantity >.quantity > button:hover {
