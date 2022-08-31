@@ -13,10 +13,12 @@
 .flyout-quantity {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .flyout-quantity__selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   border: 1px solid black;
   max-width: 150px;
   padding: 0.5em;
