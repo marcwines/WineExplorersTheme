@@ -22,8 +22,8 @@
 }
 
 .flyout-quantity > .quantity {
-    height: 20px!important;
-    min-height: 20px!important;
+    height: 24px!important;
+    min-height: 24px!important;
     width: 120px!important; 
     display: flex;
     flex-direction: row;
