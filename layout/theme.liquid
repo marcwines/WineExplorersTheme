@@ -303,12 +303,13 @@
               <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {% comment %} Somewhere in layout/theme.liquid {% endcomment %}                     
             {%- endif -%}
-                                <script type="application/json" data-ajax-cart-initial-state >
-                      {{ cart | json }}
-                    </script>
-                    <script type="module">
-                      import '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}';
-                    </script>
         </div>
+<!--     AJAX Cart Script     -->
+    <script type="application/json" data-ajax-cart-initial-state >
+          {{ cart | json }}
+    </script>
+    <script type="module">
+          import '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}';
+    </script>
   </body>
 </html>
