@@ -240,7 +240,6 @@
 
   <body class="gradient">
 <div class="my-container">
-  <div class="my-container__content">
       <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -257,9 +256,7 @@
 
     {% section 'footer' %}
 
-<div class="flyout-cart-container">
-      {% section 'my-cart-flyout' %}
-</div>
+
 
 
     <ul hidden>
@@ -299,15 +296,11 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-      </div>
-
-
 </div>
 
-
-    
-
-
+<div class="flyout-cart-container">
+      {% section 'my-cart-flyout' %}
+</div>
     
   </body>
 </html>
