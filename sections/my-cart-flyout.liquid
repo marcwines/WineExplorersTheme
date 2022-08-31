@@ -1,9 +1,32 @@
+<!-- Settings etc -->
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+    {
+        "name": "My Cart",
+        "settings": []
+    }
 {% endschema %}
+
+
+<!-- Markup -->
+    <h2>Cart</h2>
+<div class="my-cart">
+    <div class="mycart__items">
+        {% for item in cart.items %}
+        <div class="flyout-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="flyout-price">Price: {{ item.final_price | money }}</div>
+        <div class="flyout-quantity"> 
+            Quantity: 
+        <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | minus: 1 }} " class="flyout-minus">Minus</a>
+        {{ item.quantity }}
+        <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-minus">Plus</a>
+    
+    </div>
+    <div class="flyout-total">Total: {{ item.final_line_price | money }}</div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Additional Settings -->
 
 {% stylesheet %}
 {% endstylesheet %}
