@@ -301,15 +301,13 @@
         
             {%- if settings.predictive_search_enabled -%}
               <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-    {% comment %} Somewhere in layout/theme.liquid {% endcomment %}
- 
-<script type="application/json" data-ajax-cart-initial-state >
-  {{ cart | json }}
-</script>
- 
-<script type="module">
-  import '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}';
-</script>
+    {% comment %} Somewhere in layout/theme.liquid {% endcomment %}                     
+                    <script type="application/json" data-ajax-cart-initial-state >
+                      {{ cart | json }}
+                    </script>
+                    <script type="module">
+                      import '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}';
+                    </script>
             {%- endif -%}
         </div>
   </body>
