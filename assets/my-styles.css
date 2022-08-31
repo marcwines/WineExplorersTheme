@@ -14,6 +14,11 @@ hr {
 .mycontainer__content {
   flex: 2 1 auto;
 }
+
+.flyout-cart-container {
+  display: none;
+}
+
 .flyout-cart-container {
   flex: 0 0 200px;
   padding: 1em;
