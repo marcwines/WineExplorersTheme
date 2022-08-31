@@ -33,3 +33,6 @@
   color: #3e3e3e;
   text-decoration: none;
 }
+.flyout-title {
+ line-height: 1.2em; 
+}
