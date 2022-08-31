@@ -8,7 +8,9 @@
   flex: 0 0 300px;
   padding: 1em;
 }
-
+.mycart__items {
+ max-width: 400px; 
+}
 .flyout-quantity {
     display: flex;
     flex-direction: row;
