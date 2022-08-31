@@ -8,25 +8,47 @@
 
 
 <!-- Markup -->
-<h2>Cart</h2>
-<div class="my-cart">
-<div class="cart-wrap" data-ajax-cart-section>
-      <div class="mycart__items">
-        {% for item in cart.items %}
-        <hr>
-        <div class="flyout-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
-        <div class="flyout-price">Price: {{ item.final_price | money }}</div>
-        <div class="flyout-quantity"> 
-            Quantity: 
-            <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | minus: 1 }} " class="flyout-minus">-</a>
-            {{ item.quantity }}
-            <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-minus">+</a>
+  <div data-ajax-cart-section>
+    <h2>Cart</h2>
+    
+    <div class="my-cart__items" data-ajax-cart-section-scroll>
+      {% for item in cart.items %}
+        {% assign item_index = forloop.index %}
+        <hr />  
+        <div><a href="{{ item.url }}">{{ item.title }}</a></div>
+        <div>Price: {{ item.final_price | money }}</div>
+
+        <div>
+          Quantity:
+          
+          <!-- Use routes.cart_change_url for "Plus", "Minus", "Remove" buttons,
+          add the data-ajax-cart-request-button attribute to ajaxify them -->
+          <a data-ajax-cart-request-button
+            href="{{ routes.cart_change_url }}?line={{ item_index }}&quantity={{ item.quantity | minus: 1 }}" > 
+            Minus one 
+          </a>
+          
+          <!-- Add the data-ajax-cart-quantity-input attribute to quantity input fields -->
+          <input data-ajax-cart-quantity-input="{{ item_index }}" name="updates[]" value="{{ item.quantity }}" type="number" />
+
+          <a data-ajax-cart-request-button 
+            href="{{ routes.cart_change_url }}?line={{ item_index }}&quantity={{ item.quantity | plus: 1 }}"> 
+            Plus one 
+          </a>
         </div>
-    <div class="flyout-total">Total: {{ item.final_line_price | money }}</div>
-        {% endfor %}
+        
+        <!-- Place a data-ajax-cart-messages container for error messages -->
+        <div data-ajax-cart-messages="{{ item.key }}"></div>
+
+        <div>Total: <strong>{{ item.final_line_price | money }}</strong></div>
+      {% endfor %}
     </div>
+    
+    <button type="submit" name="checkout">
+      Checkout — {{ cart.total_price | money_with_currency }}
+    </button> 
   </div>
-</div>
+</form>
 
 <!-- Additional Settings -->
 
