@@ -18,6 +18,7 @@
 .flyout-quantity__selector {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
   border: 1px solid black;
   max-width: 150px;
