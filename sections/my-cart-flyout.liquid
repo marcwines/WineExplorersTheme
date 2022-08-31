@@ -19,9 +19,11 @@
         <div class="flyout-price">Price: {{ item.final_price | money }}</div>
         <div class="flyout-quantity"> 
             Quantity: 
-            <a data-ajax-cart-request-button href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | minus: 1 }} " class="flyout-minus">-</a>
-            {{ item.quantity }}
-            <a data-ajax-cart-request-button href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-minus">+</a>
+              <div class="flyout-quantity__selector">
+                          <a data-ajax-cart-request-button href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | minus: 1 }} " class="flyout-minus">-</a>
+                          {{ item.quantity }}
+                          <a data-ajax-cart-request-button href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-minus">+</a>
+              </div>
         </div>
         <div>
           <a data-ajax-cart-request-button href="/cart/change?line={{ forloop.index }}&quantity=0" rel="{{ item.id }}">Remove Item</a>
