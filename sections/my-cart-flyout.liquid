@@ -24,15 +24,16 @@
                           {{ item.quantity }}
                           <a data-ajax-cart-request-button href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-minus">+</a>
               </div>
-
+<!-- TESTING -->
 
 <quantity-input class="quantity">
                         <button data-ajax-cart-request-button class="quantity__button no-js-hidden" name="minus" type="button">
                           <span class="visually-hidden">Decrease quantity for Commander Monthly Wine Subscription</span>
-                          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-minus" fill="none" viewBox="0 0 10 2">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor">
-</path></svg>
-
+                          <a data-ajax-cart-request-button href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | minus: 1 }} " class="flyout-minus">
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-minus" fill="none" viewBox="0 0 10 2">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor">
+                                </path></svg>
+                          </a>
                         </button>
                         <input class="quantity__input" type="number" name="updates[]" value="5" min="0" aria-label="Quantity for Commander Monthly Wine Subscription" id="Quantity-1" data-index="1">
                         <button data-ajax-cart-request-button class="quantity__button no-js-hidden" name="plus" type="button">
@@ -43,7 +44,7 @@
 
                         </button>
                       </quantity-input>
-
+<!-- TESTING DONE -->
           
         </div>
         <div>
