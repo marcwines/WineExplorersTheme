@@ -22,11 +22,8 @@
             {{ item.quantity }}
             <a data-ajax-cart-request-button href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-minus">+</a>
         </div>
-    <div class="flyout-total">Total: {{ item.final_line_price | money }}</div>
-                  
-        <!-- Place a data-ajax-cart-messages container for error messages -->
-        <div data-ajax-cart-messages="{{ item.key }}"></div>
         {% endfor %}
+        <div class="flyout-total">Total: {{ item.final_line_price | money }}</div>
     </div>
   </div>
 </div>
