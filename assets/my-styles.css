@@ -5,11 +5,11 @@
   flex: 2 1 auto;
 }
 .flyout-cart-container {
-  flex: 0 0 300px;
+  flex: 0 0 500px;
   padding: 1em;
 }
 .mycart__items {
- max-width: 400px; 
+ max-width: 500px; 
 }
 .flyout-quantity {
     display: flex;
