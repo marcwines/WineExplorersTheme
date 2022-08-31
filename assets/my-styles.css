@@ -24,4 +24,5 @@
 
 .flyout-loop__item {
   display: flex;
+  font-size: 10px;
 }
