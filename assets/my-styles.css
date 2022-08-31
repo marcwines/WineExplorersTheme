@@ -45,4 +45,6 @@
  line-height: 1.2em; 
   font-weight: 600;
 }
-
+.flyout-loop__item hr{
+  margin: 3em 0em;
+}
