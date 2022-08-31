@@ -31,11 +31,11 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    <script type="application/json" data-ajax-cart-initial-state >
+    <script type="application/json" defer="defer" data-ajax-cart-initial-state >
       {{ cart | json }}
     </script> 
     <script type="module">
-      import '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}';
+      import '{{ "liquid-ajax-cart-v1.10.3.js" defer="defer" | asset_url }}';
     </script>
         
     {{ content_for_header }}
