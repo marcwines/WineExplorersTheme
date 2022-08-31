@@ -52,9 +52,9 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "How much wine do I get?",
+            "icon": "question_mark",
+            "content": "<p>the different prices representing how expensive the bottles you recieve are.<\/p><p>Our lowest cost option comes with high quality wines that are exclusive to Wines Direct in Ireland.<\/p><p>Higher levels like Globetrotter contain wines from smaller producers with lower quanitity production in single vineyards.<\/p>",
             "page": ""
           }
         },
@@ -132,7 +132,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Our wine explorers club is perfect for wine enthusiasts looking to expand their pallete and experience of wine.<\/p>",
             "text_style": "body"
           }
         }
@@ -142,6 +142,7 @@
         "image-with-text-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/wine-subscription-box-ireland_14bafd8a-1ca9-43f8-962f-754b72883023.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
