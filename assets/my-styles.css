@@ -38,5 +38,5 @@
 }
 
 .flyout-cart-container > .quantity {
-  min-height: 1.5em;
+  min-height: 1.5em!important;
 }
