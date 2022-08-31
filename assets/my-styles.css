@@ -1,11 +1,10 @@
-
 hr{
-  margin: 1em 0em!important;
+  margin: 2em 0em!important;
 }
 
 @media screen and (min-width: 750px)
 hr {
-    margin: 1em 0!important;
+    margin: 2em 0!important;
 }
 
 
