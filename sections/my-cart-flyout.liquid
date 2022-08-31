@@ -17,9 +17,9 @@
         <div class="flyout-price">Price: {{ item.final_price | money }}</div>
         <div class="flyout-quantity"> 
             Quantity: 
-        <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | minus: 1 }} " class="flyout-minus">+</a>
+        <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | minus: 1 }} " class="flyout-minus">-</a>
         {{ item.quantity }}
-        <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-minus">-</a>
+        <a href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-minus">+</a>
     
     </div>
     <div class="flyout-total">Total: {{ item.final_line_price | money }}</div>
