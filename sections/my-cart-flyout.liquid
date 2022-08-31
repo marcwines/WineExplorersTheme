@@ -21,7 +21,7 @@
                 <div class="flyout-loop__item__right">
                     <div class="flyout-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
                     <div class="flyout-price">Price: {{ item.final_price | money }} per month.</div>
-              <div class=""> None Inpuit {{ item.quantity }}</div>
+              <div class=""> </div>
                     <div class="flyout-quantity">
                         <quantity-input class="quantity">
                             <button data-ajax-cart-request-button class="quantity__button no-js-hidden" name="minus" type="button">
@@ -34,7 +34,7 @@
                                     </svg>
                                 </a>
                             </button>
-                            <input class="quantity__input" type="number" value="{{ item.quantity }}" min="0" id="Quantity-1">
+                             {{ item.quantity }}
                             <button data-ajax-cart-request-button class="quantity__button no-js-hidden" name="plus" type="button">
                                 <a data-ajax-cart-request-button href=" {{ routes.cart_change_url }}?id={{ item.key }}&quantity={{ item.quantity | plus: 1 }} " class="flyout-plus">
                                     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
