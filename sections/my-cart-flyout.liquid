@@ -9,8 +9,9 @@
 
 <!-- Markup -->
 <h2>Cart</h2>
-<div class="my-cart" data-ajax-cart-section>
-    <div class="mycart__items">
+<div class="my-cart">
+<div class="cart-wrap" data-ajax-cart-section>
+      <div class="mycart__items">
         {% for item in cart.items %}
         <hr>
         <div class="flyout-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
@@ -24,6 +25,7 @@
     <div class="flyout-total">Total: {{ item.final_line_price | money }}</div>
         {% endfor %}
     </div>
+  </div>
 </div>
 
 <!-- Additional Settings -->
