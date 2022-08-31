@@ -8,6 +8,7 @@
   flex: 0 0 600px;
   padding: 1em;
   background: #f2f2f2;
+  border-left: #d3d3d3 2px solid;
 }
 .mycart__items {
  max-width: 600px; 
