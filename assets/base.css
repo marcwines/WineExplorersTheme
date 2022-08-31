@@ -2961,3 +2961,7 @@ details-disclosure > details {
 .flyout-loop__item hr {
     margin: 1em 0!important;
 }
+
+hr {
+  margin: 1em 0!important;
+}
