@@ -9,6 +9,13 @@
   padding: 1em;
 }
 
+.flyout-quantity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .flyout-quantity >.quantity > button:hover {
-  background: red;
+  background: #f2f2f2;
 }
