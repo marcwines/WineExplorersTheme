@@ -61,27 +61,27 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
+            "heading": "When do I get my wine?",
+            "icon": "question_mark",
+            "content": "<p>You will recieve your 6 bottles monthly, we generally tale payment on the 20th of each month and ship your wine on the 12th of the following month.<\/p>",
             "page": ""
           }
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
+            "heading": "How will my wines change monthly?",
+            "icon": "question_mark",
+            "content": "<p>Your wines are selected each and every month by our team of experts, tailored to ensure a broad selection with a range of flavour profiles and regional variety.<\/p><p><\/p><p>You will only recieve a wine for the second time when the vintage has changed, and we have determined the new has changed enough.<\/p>",
             "page": ""
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "heading": "Can I pause my subscription?",
+            "icon": "question_mark",
+            "content": "<p>You can pause or cancel your subscription at any time from your \"My Account\" page. As long as you pause before the 20th of the month, your order will be paused.<\/p><p>You can also upgrade your subscription from your \"My Account\"<\/p>",
             "page": ""
           }
         },
