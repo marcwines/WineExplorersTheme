@@ -14,8 +14,12 @@
       <div class="mycart__items">
         {% for item in cart.items %}
         <hr>
+<div class="flyout-loop__item">
+<div class="flyout-loop__item__left">
         <div class="flyout-image">{{ item.featured_image | img_url: '600x600' | img_tag: item.featured_image.alt }}</div>
-        <div class="flyout-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+</div>
+<div class="flyout-loop__item__right">
+          <div class="flyout-title"><a href="{{ item.url }}">{{ item.title }}</a></div>
         <div class="flyout-price">Price: {{ item.final_price | money }}</div>
         <div class="flyout-quantity"> 
             Quantity: 
@@ -47,6 +51,10 @@
                     </svg>
                    </a>
         </div>
+</div>
+  
+
+</div>
         {% endfor %}
         <div class="flyout-total">Total: {{cart.total_price | money_with_currency }}</div>
     </div>
