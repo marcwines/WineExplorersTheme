@@ -257,7 +257,9 @@
 
     {% section 'footer' %}
 
-
+<div class="flyout-cart-container">
+      {% section 'my-cart-flyout' %}
+</div>
 
 
     <ul hidden>
@@ -298,9 +300,7 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
       </div>
-<div class="flyout-cart-container">
-      {% section 'my-cart-flyout' %}
-</div>
+
 
 </div>
 
