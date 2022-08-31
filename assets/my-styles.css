@@ -28,5 +28,5 @@
 .flyout-quantity__selector a {
   font-weight: 900;
   text-decoration: none;
-  
+  color: var(--color-base-outline-button-labels);
 }
