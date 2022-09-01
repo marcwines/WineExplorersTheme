@@ -15,7 +15,7 @@
   </a>
 </div>
 <div class="my-cart">
-
+<div class="top-boys">
 <!-- Empty Cart -->
     {% if cart.item_count < 1 %} 
       <div class="mycart__items">  
@@ -83,6 +83,8 @@
         {% endfor %}
         {% endif %}
         <hr>
+
+                        </div>
 <div class="bottom-boys">
                               {% if cart.item_count > 0 %} 
                           <div class="flyout-total"><b>Total:</b> {{cart.total_price | money_with_currency }} per month.</div>
