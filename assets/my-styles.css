@@ -20,8 +20,8 @@ hr {
 
 .flyout-cart-container {
   display: none;
-  transition: all 0.3s;
   width: 0px;
+  transition: width 0.5s;
 }
 
 body.js-my-cart-open .flyout-cart-container {
@@ -29,13 +29,14 @@ body.js-my-cart-open .flyout-cart-container {
     z-index: 300;
     right: 0;
     top: 0;
-    BACKGROUND: white;
+    background: white;
     height: 100%;
     flex: 0 0 200px;
     width: 500px;
     padding: 1em;
     border-left: #d3d3d3 2px solid;
     display: block;
+  transition: width 0.5s;
 }
 
 .mycart__items {
