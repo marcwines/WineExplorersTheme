@@ -82,7 +82,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Pick Your Plan",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,

@@ -209,6 +209,11 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "my-cart-flyout": {
+        "type": "my-cart-flyout",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
