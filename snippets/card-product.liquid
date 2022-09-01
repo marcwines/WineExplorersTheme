@@ -335,7 +335,7 @@
           <div class="card__information">
             <h3 class="card__heading featured-home-title">
               <a role="link" aria-disabled="true" class="full-unstyled-link">
-                {{ 'onboarding.product_title' | t }} LAD
+                {{ 'onboarding.product_title' | t }}  LAD
               </a>
             </h3>
           </div>
@@ -345,13 +345,13 @@
         <div class="card__information">
           <h3 class="card__heading{% if settings.card_style == 'standard' %} h5{% endif %}">
             <a role="link" aria-disabled="true" class="full-unstyled-link">
-              {{ 'onboarding.product_title' | t }}
+              {{ 'onboarding.product_title' | t }} LAD
             </a>
           </h3>
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
-              <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
+              <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }} LAD</div>
             {%- endif -%}
             {% render 'price' %}
           </div>
