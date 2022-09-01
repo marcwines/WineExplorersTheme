@@ -112,6 +112,6 @@ h3.card__heading.h5 {
 }
 
 h4.accordion__title {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro'!important;
   font-size: 16px;
 }
