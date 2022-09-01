@@ -2,9 +2,9 @@ if (!customElements.get('product-form')) {
   customElements.define('product-form', class ProductForm extends HTMLElement {
     constructor() {
       super();
-      this.setAttribute('data-ajax-cart-toggle-class-button', js-my-cart-open);
       this.form = this.querySelector('form');
       this.form.querySelector('[name=id]').disabled = false;
+      this.setAttribute('data-ajax-cart-toggle-class-button', js-my-cart-open);
       this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
       this.cart = document.querySelector('cart-notification') || document.querySelector('cart-drawer');
       this.submitButton = this.querySelector('[type="submit"]');
