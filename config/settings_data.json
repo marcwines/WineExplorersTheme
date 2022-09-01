@@ -125,9 +125,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Free Shipping on all subscriptions | 25 years in business | Exclusive wines in Ireland",
               "text_alignment": "center",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
