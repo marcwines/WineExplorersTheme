@@ -604,13 +604,8 @@
           </span>
         </a>
       {%- endif -%}
-
-<a href="{{ routes.cart_url }}"
-  data-ajax-cart-toggle-class-button="js-my-cart-open">
-  My Cart
-</a>
-                    
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+          
+      <a data-ajax-cart-toggle-class-button="js-my-cart-open" href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
             render 'icon-cart-empty'
