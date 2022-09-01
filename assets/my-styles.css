@@ -41,7 +41,10 @@ body.js-my-cart-open .flyout-cart-container {
     transition: width 0.5s;
 }
 
-.flyout-cart-top svg {
+.flyout-cart-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .mycart__items {
