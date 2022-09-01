@@ -23,7 +23,7 @@ hr {
   display: block;
   width: 0px;
   transition: width 0.3s;
-  box-shadow: -50px 0px 50px 50px rgba(0,0,0,0.2);
+  box-shadow: -50px 0px 100vw 100vh rgba(0,0,0,0.2);
 }
 
 body.js-my-cart-open .flyout-cart-container {
