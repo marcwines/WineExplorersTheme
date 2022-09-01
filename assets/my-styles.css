@@ -41,6 +41,10 @@ body.js-my-cart-open .flyout-cart-container {
     transition: width 0.5s;
 }
 
+.flyout-cart-top svg {
+  width: 100px;
+}
+
 .mycart__items {
  width: 500px; 
 }
