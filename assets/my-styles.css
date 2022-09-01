@@ -22,7 +22,7 @@ hr {
 .flyout-cart-container {
   display: block;
   width: 0px;
-  transition: width 0.5s;
+  transition: width 0.3s;
 }
 
 body.js-my-cart-open .flyout-cart-container {
@@ -36,7 +36,7 @@ body.js-my-cart-open .flyout-cart-container {
     padding: 1em;
     width: 500px;
     border-left: #d3d3d3 2px solid;
-    transition: width 0.5s;
+    transition: width 0.3s;
 }
 
 .flyout-cart-top {
