@@ -71,9 +71,9 @@
           <h3 class="card__heading">
             <a{% if card_collection == blank %} role="link" aria-disabled="true"{% else %} href="{{ card_collection.url }}"{% endif %} class="full-unstyled-link">
               {%- if card_collection.title != blank -%}
-                {{- card_collection.title | escape -}}
+                {{- card_collection.title | escape -}} LAD
               {%- else -%}
-                {{ 'onboarding.collection_title' | t }}
+                {{ 'onboarding.collection_title' | t }} LAD
               {%- endif -%}
               {%- if card_collection.description == blank -%}<span class="icon-wrap">{% render 'icon-arrow' %}</span>{% endif %}
             </a>
