@@ -106,7 +106,7 @@ form[action]="cart/add".js-ajax-cart-form-in-progress [type="submit"] {
 }
 
 
-h3.featured-home-title {
+h3.card__heading.h5 {
   font-family: 'Muli';
   font-size: 16px;
 }
