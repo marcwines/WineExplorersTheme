@@ -119,3 +119,8 @@ h2.accordion__title {
 h1,h2,h3,h4,h5,h6,p:focus-visible {
   outline: none;
 }
+
+.announcement-bar__message {
+  font-family: 'Source Sans Pro'!important;
+  font-size: 16px;
+}
