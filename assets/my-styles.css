@@ -165,7 +165,7 @@ body#recharge-novum #recharge-te #rc_te-template-wrapper h4,
 body#recharge-novum #recharge-te #rc_te-template-wrapper h5,
 body#recharge-novum #recharge-te #rc_te-template-wrapper h6,
 body#recharge-novum #recharge-te #rc_te-template-wrapper p {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro'!important;
 }
 
 div.rc_popup {
