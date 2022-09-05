@@ -168,7 +168,11 @@ body#recharge-novum #recharge-te #rc_te-template-wrapper p {
   font-family: 'Source Sans Pro'!important;
 }
 
-edit_subscription_info--wrapper * {
+.edit_subscription_info--wrapper * {
+  font-family: 'Source Sans Pro'!important;
+}
+
+.rc_manage_subscription_container {
   font-family: 'Source Sans Pro'!important;
 }
 
