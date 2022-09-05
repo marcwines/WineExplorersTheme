@@ -168,6 +168,10 @@ body#recharge-novum #recharge-te #rc_te-template-wrapper p {
   font-family: 'Source Sans Pro'!important;
 }
 
+edit_subscription_info--wrapper * {
+  font-family: 'Source Sans Pro'!important;
+}
+
 div.rc_popup {
   padding: 0px!important;
   font-size: 13px; 
