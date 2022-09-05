@@ -141,7 +141,7 @@ h1,h2,h3,h4,h5,h6,p:focus-visible {
 }
 
 .rc-template__legacy-radio .rc-radio {
-  padding: 0px;
+  padding: 0px!important;
 }
 
 @media screen and (max-width: 750px) {
