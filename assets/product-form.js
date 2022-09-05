@@ -5,9 +5,10 @@ if (!customElements.get('product-form')) {
       this.form = this.querySelector('form');
       this.form.querySelector('[name=id]').disabled = false;
       this.setAttribute('data-ajax-cart-toggle-class-button', js-my-cart-open);
-      // this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
+      this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
       this.cart = document.querySelector('cart-notification') || document.querySelector('cart-drawer');
       this.submitButton = this.querySelector('[type="submit"]');
+      this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
       if (document.querySelector('cart-drawer')) this.submitButton.setAttribute('aria-haspopup', 'dialog');
     }
 
@@ -16,7 +17,6 @@ if (!customElements.get('product-form')) {
       if (this.submitButton.getAttribute('aria-disabled') === 'true') return;
 
       this.handleErrorMessage();
-
       this.submitButton.setAttribute('data-ajax-cart-toggle-class-button', js-my-cart-open);
       this.submitButton.setAttribute('aria-disabled', true);
       this.submitButton.classList.add('loading');
