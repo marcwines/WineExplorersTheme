@@ -26,7 +26,7 @@ hr {
 }
 
 body.js-my-cart-open .flyout-cart-container {
-    position: absolute;
+    position: block;
     z-index: 300;
     right: 0;
     top: 0;
