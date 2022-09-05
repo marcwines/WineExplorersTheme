@@ -249,25 +249,37 @@
   </head>
 
   <body class="gradient">
-  <!-- Show cart on add to cart  -->
-        <script type="application/json" data-ajax-cart-configuration >
-          {
-            "addToCartCssClass": "js-my-cart-open"
-          }
-        </script>
-    <script type="module">
-  import { subscribeToCartAjaxRequests } from '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}'
-
-  subscribeToCartAjaxRequests(( requestState, subscribeToResult ) => {    
-    // This function will be called before each Shopify Cart API request
-    console.log( 'Before: ', requestState );
- 
-    subscribeToResult( requestState => {   
-      // This function will be called after the request is finished
-      console.log( 'After: ', requestState );
-    })
-  })
-</script>
+              <!-- Show cart on add to cart  -->
+                <script type="application/json" data-ajax-cart-configuration >
+                          {
+                            "addToCartCssClass": "js-my-cart-open"
+                          }
+                        </script>
+                    <script type="module">
+                  import { subscribeToCartAjaxRequests } from '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}'
+                
+                  subscribeToCartAjaxRequests(( requestState, subscribeToResult ) => {    
+                    // This function will be called before each Shopify Cart API request
+                    console.log( 'Before: ', requestState );
+                 
+                    subscribeToResult( requestState => {   
+                      // This function will be called after the request is finished
+                      console.log( 'After: ', requestState );
+                    })
+                  })
+                </script>
+                <script type="module">
+                  import { cartRequestAdd } from '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}'
+                
+                  cartRequestAdd({ 
+                    items: [
+                      {
+                        id: 40934235668668,
+                        quantity: 1
+                      }
+                    ]  
+                  });
+                </script>
         <div class="my-container">
                   <div class="my-container__content">
               <a class="skip-to-content-link button visually-hidden" href="#MainContent">
