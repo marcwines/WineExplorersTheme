@@ -147,6 +147,9 @@ h1,h2,h3,h4,h5,h6,p:focus-visible {
     padding: 2em;
     transition: width 0.3s;
   }
+  .mycart__items {
+    max-width: 80%;
+  }
   .flyout-title {
     max-width: 250px;
     line-height: 1.4em;
