@@ -133,3 +133,18 @@ h1,h2,h3,h4,h5,h6,p:focus-visible {
     outline: none;
     box-shadow: none;
 }
+
+@media screen and (max-width: 750px) {
+  .collapsible-section-layout {
+    display: block;
+    position: fixed;
+    z-index: 300;
+    right: 0;
+    top: 0;
+    background: white;
+    height: 100vh;
+    width: 100vw;    
+    padding: 2em;
+    transition: width 0.3s;
+  }
+}
