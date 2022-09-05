@@ -192,7 +192,7 @@
                 </span>
               </p>
             {%- endif -%}
-            {% render 'price', product: card_product, price_class: '' %}
+            {% render 'price' | prepend: "Lad" , product: card_product, price_class: '' %}
           </div>
         </div>
         {%- if show_quick_add -%}
