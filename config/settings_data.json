@@ -176,7 +176,7 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Wine Explorers are here to bring you the best in wine, to your door.<\/p>"
+              "subtext": "<p>Wine Explorers are here to bring you the best in wine, to your door.<\/p><p><\/p><p><a href=\"\/pages\/about-us\" title=\"About Us\">Learn More<\/a><\/p>"
             }
           }
         },
