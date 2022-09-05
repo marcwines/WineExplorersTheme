@@ -135,7 +135,7 @@ h1,h2,h3,h4,h5,h6,p:focus-visible {
 }
 
 @media screen and (max-width: 750px) {
-  .collapsible-section-layout {
+  body.js-my-cart-open .flyout-cart-container {
     display: block;
     position: fixed;
     z-index: 300;
