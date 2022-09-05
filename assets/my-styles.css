@@ -106,6 +106,12 @@ form[action]="cart/add".js-ajax-cart-form-in-progress [type="submit"] {
   padding: 0.5em;
 }
 
+.secure-checkout-button {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+}
 
 h3.card__heading.h5 {
   font-family: 'Source Sans Pro';
