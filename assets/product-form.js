@@ -8,7 +8,7 @@ if (!customElements.get('product-form')) {
       this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
       this.cart = document.querySelector('cart-notification') || document.querySelector('cart-drawer');
       this.submitButton = this.querySelector('[type="submit"]');
-      this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
+      this.submitButton.setAttribute('data-ajax-cart-toggle-class-button', js-my-cart-open);
       if (document.querySelector('cart-drawer')) this.submitButton.setAttribute('aria-haspopup', 'dialog');
     }
 
