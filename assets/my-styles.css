@@ -140,7 +140,7 @@ h1,h2,h3,h4,h5,h6,p:focus-visible {
     box-shadow: none;
 }
 
-.rc-radio .rc-option__subsave .rc-option .rc_widget__option .rc_widget__option--subsave .rc-legacy-radio {
+.rc-template__legacy-radio .rc-radio {
   padding: 0px;
 }
 
