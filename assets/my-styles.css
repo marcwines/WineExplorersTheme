@@ -20,12 +20,14 @@ hr {
 }
 
 .flyout-cart-container {
-  display: none;
+  display: block;
+  width: 0px;
+  height: 0px;
   transition: width 0.3s;
   box-shadow: -100vh 0px 100vw 100vh rgba(0,0,0,0.1);
 }
-
 body.js-my-cart-open .flyout-cart-container {
+
     position: block;
     z-index: 300;
     right: 0;
