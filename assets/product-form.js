@@ -15,9 +15,7 @@ if (!customElements.get('product-form')) {
     onSubmitHandler(evt) {
       evt.preventDefault();
       if (this.submitButton.getAttribute('aria-disabled') === 'true') return;
-
       this.handleErrorMessage();
-      this.submitButton.setAttribute('data-ajax-cart-toggle-class-button', js-my-cart-open);
       this.submitButton.setAttribute('aria-disabled', true);
       this.submitButton.classList.add('loading');
       this.querySelector('.loading-overlay__spinner').classList.remove('hidden');
