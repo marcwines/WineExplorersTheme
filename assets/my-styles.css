@@ -35,7 +35,7 @@ body.js-my-cart-open .flyout-cart-container {
     background: white;
     height: 100%;
     flex: 0 0 200px;
-    padding: 1em;
+    padding: 2em;
     width: 500px;
     border-left: #d3d3d3 2px solid;
     transition: width 0.3s;
