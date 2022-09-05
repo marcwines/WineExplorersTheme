@@ -109,8 +109,9 @@ form[action]="cart/add".js-ajax-cart-form-in-progress [type="submit"] {
 .secure-checkout-button {
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 8px;
+  text-decoration: none!important;
 }
 
 h3.card__heading.h5 {
