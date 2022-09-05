@@ -150,6 +150,11 @@ h1,h2,h3,h4,h5,h6,p:focus-visible {
   font-weight: 400;
 }
 
+body#recharge-novum {
+    --recharge-te-primary-font: Source Sans Pro, sans-serif;
+    --recharge-te-secondary-font: Source Sans Pro, sans-serif;
+}
+
 div.rc_popup {
   padding: 0px!important;
   font-size: 13px; 
