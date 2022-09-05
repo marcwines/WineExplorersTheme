@@ -155,6 +155,19 @@ body#recharge-novum {
     --recharge-te-secondary-font: Source Sans Pro, sans-serif;
 }
 
+body#recharge-novum #recharge-te #rc_te-template-wrapper h3, body#recharge-novum #recharge-te h3 {
+  font-family: 'Source Sane Pro';
+}
+
+body#recharge-novum #recharge-te #rc_te-template-wrapper h1,
+body#recharge-novum #recharge-te #rc_te-template-wrapper h2,
+body#recharge-novum #recharge-te #rc_te-template-wrapper h4,
+body#recharge-novum #recharge-te #rc_te-template-wrapper h5,
+body#recharge-novum #recharge-te #rc_te-template-wrapper h6,
+body#recharge-novum #recharge-te #rc_te-template-wrapper p {
+  font-family: 'Source Sans Pro';
+}
+
 div.rc_popup {
   padding: 0px!important;
   font-size: 13px; 
