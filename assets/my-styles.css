@@ -75,7 +75,6 @@ body.js-my-cart-open .flyout-cart-container {
 
 .flyout-loop__item {
   display: flex;
-  align-items: center;
   font-size: 14px;
   gap: 16px;
 }
