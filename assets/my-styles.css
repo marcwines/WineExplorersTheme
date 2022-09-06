@@ -150,6 +150,10 @@ h1,h2,h3,h4,h5,h6,p:focus-visible {
   font-weight: 400;
 }
 
+.rc_te-template-wrapper {
+    font-family: 'Source Sans Pro'!important;
+}
+
 body#recharge-novum {
     --recharge-te-primary-font: Source Sans Pro, sans-serif;
     --recharge-te-secondary-font: Source Sans Pro, sans-serif;
