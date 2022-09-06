@@ -223,6 +223,7 @@ div.rc_popup {
       tbody .cart-item__media {
         width: 20rem!important;
         }
+  td.cart-item__details .product-option {font-size: 1.2em;}
 }
 #dynamic-checkout-cart > div > undefined > div > div > span > div {
   width: 100%!important;
