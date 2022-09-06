@@ -230,8 +230,9 @@ div.rc_popup {
         font-size: 1.4em;
         line-height: 1.5em;
       }
-      td.cart-item__totals .cart-item__price-wrapper {
+     .cart-item__price-wrapper {
                 font-size: 1.2em;    
+        
       }
 }
 #dynamic-checkout-cart > div > undefined > div > div > span > div {
