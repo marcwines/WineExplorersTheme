@@ -239,3 +239,9 @@ div.rc_popup {
   width: 100%!important;
   text-align: left!important;
 }
+
+media (min-width: 768px)
+body#recharge-novum #recharge-te #rc_te-template-wrapper #rc_manage_subscription_container .edit_subscription_info--wrapper {
+    margin-right: 40px;
+    flex-basis: 450%;
+}
