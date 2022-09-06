@@ -118,7 +118,8 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/translogo.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/background.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo-white.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "sections": {
