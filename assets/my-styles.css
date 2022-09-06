@@ -230,7 +230,7 @@ div.rc_popup {
         font-size: 1.4em;
         line-height: 1.5em;
       }
-     .cart-item__price-wrapper {
+     .cart-item__price-wrapper .price.price--end {
                 font-size: 1.2em;    
         
       }
