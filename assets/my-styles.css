@@ -30,7 +30,7 @@ hr {
 body.js-my-cart-open .flyout-cart-container {
     display: block;
     position: fixed;
-    z-index: 300;
+    z-index: 30000000;
     right: 0;
     top: 0;
     background: white;
