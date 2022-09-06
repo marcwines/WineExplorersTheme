@@ -224,6 +224,8 @@ div.rc_popup {
         width: 20rem!important;
         }
   td.cart-item__details .product-option {font-size: 1.2em;}
+  td.cart-item__details .cart-item__name {    font-size: 1.4em;
+    line-height: 1.5em;}
 }
 #dynamic-checkout-cart > div > undefined > div > div > span > div {
   width: 100%!important;
