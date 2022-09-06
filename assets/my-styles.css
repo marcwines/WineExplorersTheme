@@ -212,6 +212,9 @@ div.rc_popup {
     max-width: 250px;
     line-height: 1.4em;
   }
+ .cart-item__image {
+    max-width: 100%;
+    width: 100%;
 }
 
 #dynamic-checkout-cart > div > undefined > div > div > span > div {
