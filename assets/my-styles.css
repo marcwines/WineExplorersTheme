@@ -214,11 +214,11 @@ div.rc_popup {
       max-width: 250px!important;
       line-height: 1.4em!important;
     }
-   .cart-item__image {
+   tbody .cart-item__image {
       max-width: 100%!important;
       width: 100%!important;
     }
-  .cart-item__media {
+  tbody .cart-item__media {
     width: 20rem!important;
 }
 }
