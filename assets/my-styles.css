@@ -214,15 +214,16 @@ div.rc_popup {
       max-width: 250px!important;
       line-height: 1.4em!important;
     }
-   tbody .cart-item__image {
-      max-width: 100%!important;
-      width: 100%!important;
-    }
-  tbody .cart-item__media {
-    width: 20rem!important;
 }
+@media screen and (min-width: 750px) {
+       tbody .cart-item__image {
+          max-width: 100%!important;
+          width: 100%!important;
+        }
+      tbody .cart-item__media {
+        width: 20rem!important;
+        }
 }
-
 #dynamic-checkout-cart > div > undefined > div > div > span > div {
   width: 100%!important;
   text-align: left!important;
