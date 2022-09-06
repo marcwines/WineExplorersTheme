@@ -192,29 +192,35 @@ div.rc_popup {
   line-height: 28.8px;
 }
 
+/* Responsive: Cart & Flyout */
+
 @media screen and (max-width: 750px) {
-  body.js-my-cart-open .flyout-cart-container {
-    display: block;
-    position: fixed;
-    z-index: 300;
-    right: 0;
-    top: 0;
-    background: white;
-    height: 100vh;
-    width: 100vw;    
-    padding: 2em;
-    transition: width 0.3s;
-  }
-  .mycart__items {
-    max-width: 100%;
-  }
-  .flyout-title {
-    max-width: 250px;
-    line-height: 1.4em;
-  }
- .cart-item__image {
-    max-width: 100%;
-    width: 100%;
+    body.js-my-cart-open .flyout-cart-container {
+      display: block;
+      position: fixed;
+      z-index: 300;
+      right: 0;
+      top: 0;
+      background: white;
+      height: 100vh;
+      width: 100vw;    
+      padding: 2em;
+      transition: width 0.3s;
+    }
+    .mycart__items {
+      max-width: 100%;
+    }
+    .flyout-title {
+      max-width: 250px;
+      line-height: 1.4em;
+    }
+   .cart-item__image {
+      max-width: 100%;
+      width: 100%;
+    }
+  .cart-item__media {
+    width: 20rem;
+}
 }
 
 #dynamic-checkout-cart > div > undefined > div > div > span > div {
