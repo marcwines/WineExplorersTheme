@@ -211,15 +211,15 @@ div.rc_popup {
       max-width: 100%;
     }
     .flyout-title {
-      max-width: 250px;
-      line-height: 1.4em;
+      max-width: 250px!important;
+      line-height: 1.4em!important;
     }
    .cart-item__image {
-      max-width: 100%;
-      width: 100%;
+      max-width: 100%!important;
+      width: 100%!important;
     }
   .cart-item__media {
-    width: 20rem;
+    width: 20rem!important;
 }
 }
 
