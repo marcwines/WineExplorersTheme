@@ -122,6 +122,8 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/logo-white.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
+    "checkout_heading_font": "Playfair Display",
+    "checkout_body_font": "Source Sans Pro",
     "checkout_accent_color": "#6d1942",
     "checkout_button_color": "#6d1942",
     "sections": {
