@@ -81,7 +81,7 @@
           "settings": {
             "heading": "Can I pause my subscription?",
             "icon": "question_mark",
-            "content": "<p>You can pause or cancel your subscription at any time from your \"My Account\" page. As long as you pause before the 20th of the month, your order will be paused.<\/p><p>You can also upgrade your subscription from your \"My Account\"<\/p>",
+            "content": "<p>You can pause or cancel your subscription at any time from your \"My Account\" page. As long as you pause before the 25th of the month, your order for the month will be paused.<\/p><p>You can also upgrade your subscription from your \"My Account\"<\/p>",
             "page": ""
           }
         },
