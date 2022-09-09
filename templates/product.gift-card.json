@@ -51,6 +51,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "How much wine do I get?",
             "icon": "question_mark",
@@ -60,6 +61,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "When do I get my wine?",
             "icon": "question_mark",
@@ -69,6 +71,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "How will my wines change monthly?",
             "icon": "question_mark",
@@ -78,6 +81,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Can I pause my subscription?",
             "icon": "question_mark",
@@ -87,6 +91,7 @@
         },
         "fc107af8-57b7-4212-9f4a-d0426426bfc4": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Can I change my subscription from white to red?",
             "icon": "question_mark",
