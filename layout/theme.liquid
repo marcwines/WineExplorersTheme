@@ -308,6 +308,20 @@
               <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
             </ul>
 
+<script type="module">
+  import { subscribeToCartAjaxRequests } from '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}'
+
+  subscribeToCartAjaxRequests(( requestState, subscribeToResult ) => {    
+    // This function will be called before each Shopify Cart API request
+    console.log( 'Before: ', requestState );
+ 
+    subscribeToResult( requestState => {   
+      // This function will be called after the request is finished
+      console.log( 'After: ', requestState );
+    })
+  })
+</script>
+    
 
             <script>
               window.shopUrl = '{{ request.origin }}';
