@@ -188,8 +188,9 @@
         "1663230546238d9f43-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Accordini_12.jpg",
             "title": "Independance",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>We have spent years building relationships with fierceley independent wineries and winemakers. <\/p>",
             "link_label": "",
             "link": ""
           }
