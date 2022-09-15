@@ -151,19 +151,11 @@
             "text": "<p>Wines Direct is an Irish family owned and operated wine importers. The wines we offer you represent a 25-year labour of love. We are uncompromising in our mission to source independently made wines directly from growers around the world and we apply our strict selection criteria to each and every wine on our list, from the everyday to the extraordinary.<\/p><p>We go out of our way to avoid the boring, mass-produced wines so as to create and sustain a market of choice for you and your fellow wine lovers. We do so by walking the ground of the world’s famous and not so famous wine regions and by directly sourcing from dedicated and fiercely independent winemakers. <\/p>",
             "text_style": "body"
           }
-        },
-        "16632302794a92d90d-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "16632302794a92d90d-0",
-        "16632302794a92d90d-1",
-        "16632302794a92d90d-2"
+        "16632302794a92d90d-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gargar.jpg",
