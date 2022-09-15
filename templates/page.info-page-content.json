@@ -178,9 +178,9 @@
         "1663230546238d9f43-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FlightCase-02-w.jpg",
+            "image": "shopify:\/\/shop_images\/Organic6-0622-p-min.jpg",
             "title": "Diversity",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>We doubt any of our partnered winemakers agree on how to make a great wine - with this diversity of opinion comes a huge range of flavours.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -189,7 +189,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Accordini_12.jpg",
-            "title": "Independance",
+            "title": "Independence",
             "text": "<p>We have spent years building relationships with fierceley independent wineries and winemakers. <\/p>",
             "link_label": "",
             "link": ""
@@ -198,6 +198,7 @@
         "1663230546238d9f43-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/abc3a3cd-4945-4cc3-83f9-ca3d52b67af7.jpg",
             "title": "Quality",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
