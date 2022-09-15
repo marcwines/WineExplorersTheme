@@ -6,7 +6,7 @@
         "1662464210288da072-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "About Us",
             "heading_size": "h1"
           }
         },
@@ -19,6 +19,7 @@
         },
         "1662464210288da072-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
@@ -49,14 +50,157 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "16632302323951d761": {
+      "type": "rich-text",
+      "blocks": {
+        "1663230232dc9e0a8f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wine<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663230232dc9e0a8f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wine. it’s not just another drink. It’s about people. It’s about places. It’s a melting pot of history and culture. And most of all, it’s about pleasure. Our mission is to bring you wines that reflect these qualities and that represent the people and places from which they come. As well as offering you great wine, we want you to get closer to the vineyards they come from, which is why we discover the back story behind each and every bottle and share it with you. We hope you will join us on our journey as we explore the wonderful world of wine. Cheers!<\/p>"
+          }
+        },
+        "1663230232dc9e0a8f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663230232dc9e0a8f-0",
+        "1663230232dc9e0a8f-1",
+        "1663230232dc9e0a8f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663230279d2031c6d": {
+      "type": "image-with-text",
+      "blocks": {
+        "16632302794a92d90d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who We Are",
+            "heading_size": "h1"
+          }
+        },
+        "16632302794a92d90d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wines Direct is an Irish family owned and operated wine importers. The wines we offer you represent a 25-year labour of love. We are uncompromising in our mission to source independently made wines directly from growers around the world and we apply our strict selection criteria to each and every wine on our list, from the everyday to the extraordinary.<\/p><p>We go out of our way to avoid the boring, mass-produced wines so as to create and sustain a market of choice for you and your fellow wine lovers. We do so by walking the ground of the world’s famous and not so famous wine regions and by directly sourcing from dedicated and fiercely independent winemakers. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "16632302794a92d90d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16632302794a92d90d-0",
+        "16632302794a92d90d-1",
+        "16632302794a92d90d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gargar.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16632305467539b9f7": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663230546238d9f43-0": {
+          "type": "column",
+          "settings": {
+            "title": "Diversity",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663230546238d9f43-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663230546238d9f43-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663230546238d9f43-0",
+        "1663230546238d9f43-1",
+        "1663230546238d9f43-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "16624642102a52a1b6",
-    "main"
+    "main",
+    "16632302323951d761",
+    "1663230279d2031c6d",
+    "16632305467539b9f7"
   ]
 }
