@@ -13,7 +13,7 @@
         "1662464210288da072-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Wine. it’s not just another drink.It’s about people. It’s about places. It’s a melting pot of history and culture. And most of all, it’s about pleasure.",
             "text_style": "body"
           }
         },
@@ -56,8 +56,45 @@
         "padding_bottom": 28
       }
     },
+    "1663230626d1b5a65a": {
+      "type": "image-with-text",
+      "blocks": {
+        "16632306264e7f093d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wines Direct",
+            "heading_size": "h1"
+          }
+        },
+        "16632306264e7f093d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're an Irish owned business who have been working with independent winemakers for over 25 years bringing world class wines to Ireland.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16632306264e7f093d-0",
+        "16632306264e7f093d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Organic6-0622-p-min.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16632302323951d761": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1663230232dc9e0a8f-0": {
           "type": "heading",
@@ -157,7 +194,7 @@
         "1663230546238d9f43-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Independance",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -166,7 +203,7 @@
         "1663230546238d9f43-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Quality",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -179,7 +216,7 @@
         "1663230546238d9f43-2"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Our Values",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -188,7 +225,7 @@
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -199,6 +236,7 @@
   "order": [
     "16624642102a52a1b6",
     "main",
+    "1663230626d1b5a65a",
     "16632302323951d761",
     "1663230279d2031c6d",
     "16632305467539b9f7"
