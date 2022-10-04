@@ -13,7 +13,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Travel the world via some beautiful wines, carefully selected and shipped to you every month.",
+            "text": "Good wine is available to most, but we’re all about making great wine accessible to all. Our monthly subscription allows you to dip your toes into a new world of wine – one you might not have tried without our help!",
             "text_style": "body"
           }
         },
@@ -50,7 +50,6 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -62,7 +61,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>We're here to help you travel the world via some beautiful wines, carefully selected and shipped to you every month! Wine Explorers in a Wines Direct run website, and has been started to improve your experience as a valued customer of ours.<\/p>"
+            "text": "<p><\/p><p><br\/>It’s simple – sign up to whichever level of the model suits you and your wants, and we do the rest! We’ll choose the wines, write the notes, pack them up good & safe and send them off into the wild for you to enjoy. <br\/><\/p>"
           }
         }
       },
