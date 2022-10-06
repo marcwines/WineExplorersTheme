@@ -4,7 +4,8 @@
 {% endcomment %}
 {% for group in robots.default_groups %}
   {{- group.user_agent -}}
-
+        Disallow: /products/double-bubbles-gift-box
+        Disallow: /products/3-months-navigator-plan
   {% for rule in group.rules %}
     {{- rule -}}
   {% endfor %}
