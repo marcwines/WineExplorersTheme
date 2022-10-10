@@ -245,3 +245,8 @@ body#recharge-novum #recharge-te #rc_te-template-wrapper #rc_manage_subscription
     margin-right: 40px!important;
     flex-basis: 450%!important;
 }
+
+.custom-badge-wd {
+    text-align: left;
+    width: auto;
+}
