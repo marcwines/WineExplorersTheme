@@ -8,14 +8,6 @@ hr {
 }
 
 
-.product-badge-row {
-  flex-direction: column;
-}
-.custom-badge-wd {
-    text-align: left;
-    width: auto;
-}
-
 
 .my-container {
   display: block;
