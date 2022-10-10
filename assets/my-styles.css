@@ -250,3 +250,7 @@ body#recharge-novum #recharge-te #rc_te-template-wrapper #rc_manage_subscription
     text-align: left;
     width: auto;
 }
+
+.product-badge-row {
+  display: column;
+}
