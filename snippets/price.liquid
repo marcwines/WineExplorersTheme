@@ -47,9 +47,9 @@
       <span class="price-item price-item--regular">
         {{ money_price }}
       </span>
-      {% if product.tags contains "subscription" %}
-                        <span> per month.</span>
-                      {% endif %}
+          {% if product.tags contains "subscription" %}
+              <span> per month.</span>
+          {% endif %}
     </div>
     <div class="price__sale">
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
