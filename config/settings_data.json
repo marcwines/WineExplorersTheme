@@ -189,6 +189,7 @@
           },
           "0b6c102f-963c-41f2-bfd4-98ef85dfe857": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "Contact Us",
               "menu": "footer"
