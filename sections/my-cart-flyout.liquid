@@ -15,6 +15,16 @@
   </a>
 </div>
 <div class="my-cart">
+
+
+<!-- CONDITIONAL  -->
+
+  {% if additional_checkout_buttons %}
+    <div class="additional-checkout-buttons">
+        {{ content_for_additional_checkout_buttons }}
+    </div>
+  {% endif %}
+  
 <!-- Empty Cart -->
     {% if cart.item_count < 1 %} 
       <div class="mycart__items">  
