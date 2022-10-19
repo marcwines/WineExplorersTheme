@@ -248,3 +248,7 @@ body#recharge-novum #recharge-te #rc_te-template-wrapper #rc_manage_subscription
 .additional_checkout_buttons {
   display: none!important;
 }
+
+.additional-checkout-buttons {
+  display: none !important;
+}
