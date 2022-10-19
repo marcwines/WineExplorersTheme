@@ -252,3 +252,8 @@ body#recharge-novum #recharge-te #rc_te-template-wrapper #rc_manage_subscription
 .additional-checkout-buttons {
   display: none !important;
 }
+
+
+.uReyx > div {
+  display: none!important;
+}
