@@ -85,21 +85,21 @@
             "page": ""
           }
         },
+        "345700bb-d9db-4e8e-bd55-3f213007578d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I cancel my subscription?",
+            "icon": "question_mark",
+            "content": "<p>You can cancel at any time by logging into your account and visiting your my account page. <\/p><p>You do need to cancel your subscription 1 week before your next payment. <\/p><p>Please keep in mind that our subscriptions hold a minimum term of 3 months.<\/p>",
+            "page": ""
+          }
+        },
         "fc107af8-57b7-4212-9f4a-d0426426bfc4": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I change my subscription from white to red?",
             "icon": "question_mark",
             "content": "<p>Yes you can! Simply sign in to your account and update your choice, choosing from red, white, or half and half.<\/p>",
-            "page": ""
-          }
-        },
-        "345700bb-d9db-4e8e-bd55-3f213007578d": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How does cancellation work?",
-            "icon": "question_mark",
-            "content": "<p>You can cancel at any time by logging into your account and visiting your my account page. <\/p><p>You do need to cancel your subscription 1 week before your next payment. <\/p><p>Please keep in mind that our subscriptions hold a minimum term of 3 months.<\/p>",
             "page": ""
           }
         },
@@ -123,8 +123,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "fc107af8-57b7-4212-9f4a-d0426426bfc4",
         "345700bb-d9db-4e8e-bd55-3f213007578d",
+        "fc107af8-57b7-4212-9f4a-d0426426bfc4",
         "share"
       ],
       "settings": {
