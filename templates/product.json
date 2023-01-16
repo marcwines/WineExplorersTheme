@@ -94,6 +94,15 @@
             "page": ""
           }
         },
+        "345700bb-d9db-4e8e-bd55-3f213007578d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does cancellation work?",
+            "icon": "question_mark",
+            "content": "<p>You can cancel at any time by logging into your account and visiting your my account page. <\/p><p>Please keep in mind that our subscriptions hold a minimum term of 3 months.<\/p>",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -115,6 +124,7 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "fc107af8-57b7-4212-9f4a-d0426426bfc4",
+        "345700bb-d9db-4e8e-bd55-3f213007578d",
         "share"
       ],
       "settings": {
